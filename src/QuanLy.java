@@ -17,4 +17,9 @@ public class QuanLy {
     public void inDanhSach() {
         for (SinhVien sv : ds) System.out.println("  " + sv);
     }
+
+    public void inXepLoai() {
+        System.out.println("Xep loai:");
+        for (SinhVien sv : ds) System.out.println("  " + sv.getMaSo() + ": " + XepLoai.tuDiem(sv.getDiem()));
+    }
 }

@@ -6,6 +6,7 @@ public class Main {
         ql.them(new SinhVien("SV02", "Nguyen Hong Linh", 4.5));
         ql.them(new SinhVien("SV03", "Tran Thanh Phuoc", 7.0));
         ql.inDanhSach();
+        ql.inXepLoai();
         System.out.println("So sinh vien dat (diem >= " + CauHinh.DIEM_DAT + "): " + ql.soLuongDat());
     }
 }
