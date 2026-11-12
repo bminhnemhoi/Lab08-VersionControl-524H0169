@@ -15,6 +15,6 @@ public class SinhVien {
 
     @Override
     public String toString() {
-        return maSo + " - " + hoTen + " - " + diem;
+        return String.format("%-5s %-20s %4.1f", maSo, hoTen, diem);
     }
 }
