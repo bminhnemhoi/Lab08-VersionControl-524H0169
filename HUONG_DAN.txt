@@ -1,3 +1,0 @@
-Cach chay chuong trinh:
-  javac -d out src/*.java
-  java -cp out Main
